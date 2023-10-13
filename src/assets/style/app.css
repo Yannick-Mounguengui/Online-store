@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#insertReactHere {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  min-height: 100vh;
+  overflow: auto;
+}
+
+#insertReactHere > * {
+  flex-basis: 100%;
+}
+
+.productlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.productlist h2,
+.filter {
+  align-self: flex-start;
+}
+
+.filter {
+  margin-left: 10px;
+}
