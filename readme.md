@@ -1,7 +1,7 @@
 
   1. Dans le dossier exécutez
 ```bash  	  
-tp4$  npm install
+  npm install
 ```  
   2. Exécutez la commande `npm run build` pour créer le dossier `./dist/` et construire un premier *bundle*
   3. Vous pouvez ouvrir le fichier `dist/index.html`, pour vérifier que tout s'est bien déroulé en consultant la console (<kbd>Ctrl Shift K</kbd>) dans laquelle vous devez lire le message `le bundle a été généré`.  
@@ -12,7 +12,7 @@ tp4$  npm install
     Comme dans le TP précédent, profitez des facilités offertes par Webpack pendant la phase de développement pour construire le bundle et visualiser les résultats "à chaud" en démarrant le serveur de développement :Après chaque modification, il faut générer le <q>nouveau</q> <i>bundle</i>, toujours à l'aide de la commande <code>npm run build</code> et c'est le fichier **`dist`**`/index.html` qu'il faut consulter pour avoir le résultat
 
 ```bash
-tp4$  npm run dev-server
+  npm run dev-server
 ```
 
   **C'est la solution que l'on vous conseille d'adopter.**
